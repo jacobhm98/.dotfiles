@@ -1,0 +1,71 @@
+! remove scrollbar 
+URxvt.scrollBar: false
+
+! fonts
+URxvt.font: xft: Noto Sans Mono: size=14, stlye=Regular
+URxvt.boldFont: xft: Noto Sans Mono: size=14, style=Bold
+Xft.rgba: rgb
+Xft.antialias: true
+
+
+! Disable ISO14755 mode
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+!Perl Extensions
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+
+! URL launcher
+URxvt.url-select.launcher: /usr/bin/firefox
+URxvt.url-select.underline: true
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+
+! Scroll through pager instead of URXVT scrollback buffer
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
+! transparency
+URxvt*depth: 32
+*.background: [50]#888888
+
+! colors
+
+!default text color #black
+URxvt.foreground: #000000
+
+!cursor #yellow
+URxvt.cursorColor: #d5fa04
+URxvt.cursorBlink: true
+
+!Black idk use tbh
+URxvt*color0: #000000
+URxvt*color8: #000000
+
+!ORANGE suggestions from zsh and some text
+URxvt*color1: #ffc10d
+URxvt*color9: #ffc10d 
+
+!PURPLE executables
+URxvt*color2: #8700b4
+URxvt*color10: #8700b4
+! Baby Blue
+URxvt*color3: #008cff
+URxvt*color11: #008cff
+
+!Comments darker blue directories
+URxvt*color4: #003a73
+URxvt*color12: #003a73
+
+! Bright green
+URxvt*color5: #00ad18
+URxvt*color13: #00ad18
+
+! Lavender
+URxvt*color6: #a586ae 
+URxvt*color14: #a586ae 
+
+! Red vim highlighting
+URxvt*color7: #ff0000
+URxvt*color15: #ff0000
+
