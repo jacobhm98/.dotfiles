@@ -22,6 +22,10 @@ unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
 
+#put current working dir into .pwd
+function chpwd() {
+	pwd > $HOME/.pwd
+}
 alias ls='ls --color'
 alias update='sudo pacman -Syu'
 alias uninstall='sudo pacman -Rs'
