@@ -1,0 +1,4 @@
+#!/bin/bash
+
+currentDir=$(cat $HOME/.pwd)
+termite -d $currentDir
