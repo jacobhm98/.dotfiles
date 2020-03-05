@@ -8,6 +8,7 @@ Plugin 'valloric/youcompleteme'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
+Plugin 'ludovicchabant/vim-gutentags'
 call vundle#end()
 filetype plugin indent on
 syntax on
