@@ -1,5 +1,7 @@
 set nocompatible
 filetype off
+set laststatus=2
+set statusline=[%n]\ %<%f%h%m
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
