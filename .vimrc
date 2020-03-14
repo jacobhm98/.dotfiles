@@ -1,7 +1,13 @@
 set nocompatible
 filetype off
+"statusline format + always show statusline
 set laststatus=2
 set statusline=[%n]\ %<%f%h%m
+"disable wrapping of lines
+set textwidth=0
+set wrapmargin=0
+set wrap!
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
